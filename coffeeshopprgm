@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int p,d,t;
+  cin>>p>>d;
+  int v=p;
+  while(1)
+  {
+    t=(p*d)/100;
+    if(t<=0)
+      break;-
+    p=-t;
+    v+=p;
+  }
+  cout<<v;
+}
